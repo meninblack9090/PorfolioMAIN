@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description"
+    content="Umalay - Web Development & Design Portfolio. Explore my work, projects, and get in touch." />
+  <title>Umalay | Web Development & Design Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800;900&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@latest/tabler-icons.min.css" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+  <!-- ========== NAVBAR ========== -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="#home" class="logo" id="logo-link">UMALAY</a>
+
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#home" class="nav-link active" id="nav-home">Home</a></li>
+
+        <li><a href="#about" class="nav-link" id="nav-about">About me</a></li>
+        <li><a href="#certificates" class="nav-link" id="nav-certificates">Certificates</a></li>
+        <li><a href="#portfolio" class="nav-link" id="nav-portfolio">Portfolio</a></li>
+        <li><a href="#contact" class="nav-link" id="nav-contact">Contact me</a></li>
+      </ul>
+
+      <a href="#contact" class="btn btn-primary nav-hire" id="nav-hire-btn">Hire Me</a>
+
+      <button class="theme-toggle" id="theme-toggle-btn" aria-label="Toggle dark mode">
+        <i class="fas fa-sun icon-sun"></i>
+        <i class="fas fa-moon icon-moon"></i>
+      </button>
+
+      <button class="hamburger" id="hamburger-btn" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- ========== HERO SECTION ========== -->
+  <section class="hero" id="home">
+    <div class="hero-content">
+      <div class="hero-text" id="hero-text">
+        <p class="hero-greeting">Hi I am</p>
+        <h2 class="hero-name" style="font-size: clamp(2.5rem, 5vw, 4rem);">Justin Adam C. Umalay</h2>
+        <p class="hero-learning"><span class="learning-label">I'm currently learning:</span></p>
+        <h1 class="hero-title">Web Development</h1>
+
+        <div class="social-icons" id="social-icons">
+          <a href="https://www.instagram.com/dedust_adam/" class="social-icon" id="social-instagram"
+            aria-label="Instagram" target="_blank">
+            <i class="fab fa-instagram"></i>
+          </a>
+          <a href="https://github.com/meninblack9090" class="social-icon" id="social-github" aria-label="GitHub"
+            target="_blank">
+            <i class="fab fa-github"></i>
+          </a>
+          <a href="https://www.facebook.com/justin.umalay" class="social-icon" id="social-facebook"
+            aria-label="Facebook" target="_blank">
+            <i class="fab fa-facebook-f"></i>
+          </a>
+        </div>
+
+        <div class="tech-stack" style="margin-top: 2rem;">
+          <p style="font-size: 1.1rem; font-weight: 600; margin-bottom: 0.8rem; color: var(--primary-color, #007bff);">
+            Technical Stack</p>
+          <div style="display: flex; gap: 1rem; flex-wrap: wrap; font-size: 2.2rem;">
+            <i class="devicon-html5-plain colored" title="HTML5"></i>
+            <i class="devicon-css3-plain colored" title="CSS3"></i>
+            <i class="devicon-javascript-plain colored" title="JavaScript"></i>
+            <i class="devicon-python-plain colored" title="Python"></i>
+            <i class="devicon-java-plain colored" title="Java"></i>
+            <i class="devicon-php-plain colored" title="PHP"></i>
+            <i class="devicon-react-original colored" title="React"></i>
+            <i class="devicon-nodejs-plain colored" title="Node.js"></i>
+            <i class="devicon-laravel-original colored" title="Laravel"></i>
+            <i class="devicon-django-plain colored" title="Django"></i>
+            <i class="devicon-flutter-plain colored" title="Flutter"></i>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-image-wrapper" id="hero-image-wrapper">
+        <div class="hero-circle">
+          <img src="Umalayy.jpg" alt="Umalay" class="hero-img" id="hero-profile-img" />
+        </div>
+        <div class="circle-ring ring-1"></div>
+        <div class="circle-ring ring-2"></div>
+      </div>
+    </div>
+
+
+  </section>
+
+
+
+  <!-- ========== ABOUT SECTION ========== -->
+  <section class="about section-padding" id="about">
+    <div class="container about-container">
+      <div class="about-text-side">
+        <h2 class="section-title">About <span class="highlight">Me</span></h2>
+        <p class="about-bio">
+          Hi! I'm Justin Adam C. Umalay, a Bachelor of Science in Information Technology (BSIT) student
+          at Davao del Norte State College. I am passionate about technology and continuously expanding
+          my knowledge by building projects and exploring new tools in the field of software development.
+        </p>
+        <p class="about-bio">
+          I am currently learning and improving my skills in Web Development, Mobile App Development,
+          Software Development, and UI/UX Design. I enjoy creating applications that are not only
+          functional but also user-friendly and visually appealing.
+        </p>
+        <p class="about-bio">
+          As an aspiring IT professional, I am committed to continuous learning, solving real-world
+          problems through technology, and developing innovative digital solutions. I am always eager
+          to take on new challenges, collaborate with others, and grow both personally and professionally
+          as I work toward becoming a skilled software developer.
+        </p>
+
+        <a href="#contact" class="btn btn-primary" id="about-hire-btn">Let's Work Together</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== CERTIFICATES SECTION ========== -->
+  <section class="certificates section-padding" id="certificates">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag">Achievements</span>
+        <h2 class="section-title">My <span class="highlight">Certificates</span></h2>
+        <p class="section-desc">A collection of certifications and recognitions I've earned through learning and
+          dedication.</p>
+      </div>
+
+      <div class="cert-grid" id="cert-grid">
+
+        <!-- Wadhani Certificate -->
+        <div class="cert-card reveal">
+          <a href="assets/wadhani.png" target="_blank" class="cert-img-wrap" title="View Certificate">
+            <img src="assets/wadhani.png" alt="Wadhani Certificate" class="cert-img" />
+            <div class="cert-img-overlay"><i class="fas fa-expand-alt"></i> View Full</div>
+          </a>
+          <div class="cert-body">
+            <span class="cert-issuer">Wadhani Foundation</span>
+            <h3 class="cert-title">Wadhani Certificate</h3>
+            <p class="cert-date"><i class="far fa-calendar-alt"></i> 2024</p>
+          </div>
+          <div class="cert-badge">Verified</div>
+        </div>
+
+        <!-- Networking Certificate -->
+        <div class="cert-card reveal">
+          <a href="assets/networking cert.jpg" target="_blank" class="cert-img-wrap" title="View Certificate">
+            <img src="assets/networking cert.jpg" alt="Networking Certificate" class="cert-img" />
+            <div class="cert-img-overlay"><i class="fas fa-expand-alt"></i> View Full</div>
+          </a>
+          <div class="cert-body">
+            <span class="cert-issuer">Networking</span>
+            <h3 class="cert-title">Networking Certificate</h3>
+            <p class="cert-date"><i class="far fa-calendar-alt"></i> 2024</p>
+          </div>
+          <div class="cert-badge">Verified</div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== PORTFOLIO SECTION ========== -->
+  <section class="portfolio section-padding" id="portfolio">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">My Work</span>
+        <h2 class="section-title">My <span class="highlight">Projects</span></h2>
+        <p class="section-desc">A curated selection of my best projects.</p>
+      </div>
+
+      <div class="portfolio-filters" id="portfolio-filters">
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="web">Web</button>
+        <button class="filter-btn" data-filter="mobile">Mobile</button>
+      </div>
+
+      <div class="portfolio-grid" id="portfolio-grid">
+        <!-- Projects injected via JS -->
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== PROJECT MODAL OVERLAY ========== -->
+  <div class="pj-overlay" id="pj-overlay" role="dialog" aria-modal="true" aria-labelledby="pj-title">
+    <div class="pj-modal" id="pj-modal" tabindex="-1">
+      <div class="pj-hero" id="pj-hero">
+        <img src="" alt="" id="pj-hero-img" class="pj-hero-img" />
+        <button class="pj-close" id="pj-close" aria-label="Close dialog">
+          <i class="fas fa-times"></i>
+        </button>
+      </div>
+      <div class="pj-body">
+        <span class="pj-tag" id="pj-tag"></span>
+        <h3 class="pj-title" id="pj-title"></h3>
+        <p class="pj-desc" id="pj-desc"></p>
+        <div class="pj-tech" id="pj-tech"></div>
+        <p class="pj-features-label">Key Features</p>
+        <ul class="pj-features" id="pj-features"></ul>
+        <div class="pj-actions">
+          <a href="#" id="pj-github" target="_blank" rel="noopener" class="pj-btn pj-btn-primary">
+            <i class="fab fa-github"></i> GitHub
+          </a>
+          <a href="#" id="pj-demo" target="_blank" rel="noopener" class="pj-btn pj-btn-secondary">
+            <i class="fas fa-external-link-alt"></i> Live Demo
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ========== CONTACT SECTION ========== -->
+  <section class="contact section-padding" id="contact">
+    <div class="container contact-container">
+      <div class="contact-info">
+        <span class="section-tag">Get In Touch</span>
+        <h2 class="section-title">Contact <span class="highlight">Me</span></h2>
+        <p class="contact-desc">Have a project in mind? Let's create something amazing together. Feel free to reach out!
+        </p>
+
+        <div class="contact-details">
+          <div class="contact-item" id="contact-email">
+            <div class="contact-icon"><i class="fas fa-envelope"></i></div>
+            <div>
+              <p class="contact-label">Email</p>
+              <p class="contact-value">umalay.justin@dnsc.edu.ph</p>
+            </div>
+          </div>
+          <div class="contact-item" id="contact-phone">
+            <div class="contact-icon"><i class="fas fa-phone"></i></div>
+            <div>
+              <p class="contact-label">Phone</p>
+              <p class="contact-value">+63 9917355234</p>
+            </div>
+          </div>
+          <div class="contact-item" id="contact-location">
+            <div class="contact-icon"><i class="fas fa-map-marker-alt"></i></div>
+            <div>
+              <p class="contact-label">Location</p>
+              <p class="contact-value">Philippines</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+    </div>
+  </section>
+
+  <!-- ========== FOOTER ========== -->
+  <footer class="footer" id="footer">
+    <div class="footer-container">
+      <a href="#home" class="logo" id="footer-logo">UMALAY</a>
+      <p class="footer-text">© 2026 Umalay. Crafted with <span class="heart">♥</span> and creativity.</p>
+      <div class="footer-socials">
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scroll To Top -->
+  <button class="scroll-top" id="scroll-top-btn" aria-label="Scroll to top">
+    <i class="fas fa-arrow-up"></i>
+  </button>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
